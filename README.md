@@ -1,7 +1,7 @@
 # Fides_Ratio_Politica
 
-Description
-A Post-graduate online-forum, where people come together to talk about their fields of expertise relating in faith, rationale, & politics. 
+Description: 
+A post-graduate online-forum, where people come together to talk about their fields of expertise relating in faith, rationale, & politics. 
 
 Custom CSS Classes
 The class(es) I created are:
