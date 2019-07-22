@@ -30,4 +30,3 @@ The javascript functions I created are:
 
 1. activateItem()
 Replaces the headline innerHTML with the innerHTML of the button clicked by the user
-
