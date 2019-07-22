@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 /*---Custom --*/
+.FiftyPercent {
+    max-width: 50%;
+    flex: 0 0 100%;
+}
+.no-margin{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .no-bullet{
     list-style-type: none
   }
@@ -88,7 +98,6 @@ html, body {
     height: auto
 }
 .jumbotron-fl {
-    padding-right: 15vw;
     padding-left: 0;
     border-radius: 0;
 }
@@ -348,6 +357,9 @@ figure {
         font-size: 2.5em;
         padding: 1.2rem;
     }
+    .PADDING {
+        padding-left: 200px;
+    }
 }
 @media (max-width: 576px) {
     .hide {
@@ -376,9 +388,15 @@ figure {
 }
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+No media query since this is the default in Bootstrap*/
+@media (min-width: 576px) {
+    .FiftyPercent {
+        max-width: 50%;
+        flex: 0 0 100%;
+    }
+}
 
-Small (sm) devices (landscape phones, 576px and up)
+/*Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
 
 Medium (md) devices (tablets, 768px and up)
